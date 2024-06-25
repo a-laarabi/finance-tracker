@@ -106,6 +106,9 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    devise-tailwindcssed (0.1.6)
+      rails (>= 5.2.3.4, <= 7.3)
+      railties (> 4.0, <= 7.3)
     drb (2.2.1)
     error_highlight (0.6.0)
     erubi (1.13.0)
@@ -289,6 +292,7 @@ DEPENDENCIES
   capybara
   debug
   devise
+  devise-tailwindcssed
   error_highlight (>= 0.4.0)
   importmap-rails
   jbuilder
